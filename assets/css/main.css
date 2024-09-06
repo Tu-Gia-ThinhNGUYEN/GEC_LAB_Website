@@ -1101,7 +1101,7 @@ section,
 /*--------------------------------------------------------------
 # Why Us Section
 --------------------------------------------------------------*/
-.why-us .card {
+.teaching .card {
   background-color: var(--surface-color);
   color: var(--default-color);
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
@@ -1110,14 +1110,14 @@ section,
   border-radius: 0;
 }
 
-.why-us .card span {
+.teaching .card span {
   display: block;
   font-size: 24px;
   font-weight: 400;
   color: var(--accent-color);
 }
 
-.why-us .card h4 {
+.teaching .card h4 {
   color: color-mix(in srgb, var(--heading-color), transparent 20%);
   font-size: 24px;
   font-weight: 600;
@@ -1125,7 +1125,7 @@ section,
   margin: 20px 0;
 }
 
-.why-us .card p {
+.teaching .card p {
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   font-size: 15px;
   margin: 0;
@@ -1139,6 +1139,7 @@ section,
   opacity: 0.5;
   transition: 0.3s;
   filter: grayscale(100);
+  min-width: 12rem;
 }
 
 .clients .swiper-slide img:hover {
@@ -1395,6 +1396,7 @@ section,
 
 .team .member .member-content {
   padding: 0 20px 30px 20px;
+  text-align: left;
 }
 
 .team .member h4 {
